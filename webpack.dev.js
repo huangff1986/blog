@@ -14,6 +14,7 @@ module.exports = merge(common, {
       './src/index.js'
     ]
   },
+  
   devtool: 'inline-source-map',
   output: {
     publicPath: '/'
