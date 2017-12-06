@@ -8,7 +8,7 @@ const ProgressBarPlugin = require('progress-bar-webpack-plugin');
 module.exports = merge(common, {
   entry: {
     index: [
-      'webpack-hot-middleware/client?__webpack_hmr',
+      'webpack-hot-middleware/client?path=http://localhost:3000/__webpack_hmr',
       'babel-polyfill',
       'react-hot-loader/patch',
       './src/index.js'

@@ -20,7 +20,8 @@ app.use(webpackDevMiddleware(compiler, {
   watchOptions: {
     aggregateTimeout: 300,
     poll: true
-  }
+  },
+  hot: true
 }));
 
 app.use(webpackHotMiddleware(compiler))
