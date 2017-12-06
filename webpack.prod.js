@@ -8,7 +8,7 @@ module.exports = merge(common, {
   entry: {
     main: './src/index.js',
     vendor: [
-      'react'
+      'react', 'react-router', 'redux', 'antd'
     ]
   },
   plugins:[
